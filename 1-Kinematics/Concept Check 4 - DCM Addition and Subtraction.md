@@ -1,5 +1,5 @@
 
-#Question 1
+# Question 1
 
 Given the DCMs [QT] and [QR], how is [RT] computed?
 -[ ] [RT] = [QR][QT]
