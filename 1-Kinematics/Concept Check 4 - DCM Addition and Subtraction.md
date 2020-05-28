@@ -1,4 +1,6 @@
 
+# Note
+Complex Calculations are made using Mathematica
 # Question 1
 
 Given the DCMs [QT] and [QR], how is [RT] computed?
@@ -8,6 +10,7 @@ Given the DCMs [QT] and [QR], how is [RT] computed?
 
 # Question 2
 If B is rotated 90 degrees about the first axis relative to N, and R is rotated -90 degrees about the second axis relative to N, what is the [BR] DCM?
+`N[EulerMatrix[{-\[Pi]/2, -\[Pi]/2, 0}, {1, 2, 3}]] // MatrixForm`
 
 - [ ] a
 - [x] b
