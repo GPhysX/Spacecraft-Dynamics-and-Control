@@ -46,4 +46,4 @@ Determine the DCM [BN].
 - [ ] b
 - [x] c
 # Question 3 and 4 Visualization
-[Q3](Untitled.png)
+[![alt text](http://url/to/img.png)](Untitled.png)
