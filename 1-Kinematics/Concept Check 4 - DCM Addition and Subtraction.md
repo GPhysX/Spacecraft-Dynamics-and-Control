@@ -45,4 +45,5 @@ Determine the DCM [BN].
 - [ ] a
 - [ ] b
 - [x] c
-
+# Question 3 and 4 Visualization
+[Q3](Untitled.png)
