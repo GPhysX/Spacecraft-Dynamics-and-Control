@@ -21,8 +21,8 @@ Find the direction cosine matrix [BN] in terms of the angle \phi.
 The reference frames N:{n^1,n^2,n^3} and B:{b^L,b^θ,b^r} are shown in the Figure. The disk is rolling on the ring without slip.
 
 Given the vector Bv=1b^r+1b^θ+2b^L, find the vector Nv
-- [ ] A
-- [x] B
+- [x] A
+- [ ] B
 - [ ] C
 
 # Question 4
