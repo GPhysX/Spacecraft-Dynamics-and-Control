@@ -9,10 +9,17 @@ EulerAngles[mn,{3,1,3}]]`
 - [x] B
 - [ ] C
 # Question 2
+To transfer from the inertial Frame to Body frame, the following axes transformation should be applied
 ![alt text](Fig1Q7.png)
+But in the question it's required to get [BN]
 The reference frames N:{n^1,n^2,n^3} and B:{b^L,b^θ,b^r} are shown in the Figure. The disk is rolling on the ring without slip.
 
 Find the direction cosine matrix [BN] in terms of the angle \phi.
+`Module[{\[Theta]=L*\[Phi]/r,vb={{2},{1},{1}}},
+(BN=EulerMatrix[{\[Theta],0,-\[Phi]},{1,2,3}]);
+(*BN//MatrixForm*)
+vN=Transpose[BN].vb//MatrixForm
+]`
 - [x] A
 - [ ] B
 - [ ] C
@@ -32,7 +39,8 @@ Find the mapping of these angles (\theta_1, \theta_2, \theta_3)to the correspond
 - [ ] A
 - [x] B
 - [ ] C
-
+`Module[{\[Theta]1=Subscript[\[Theta], 1],\[Theta]2=Subscript[\[Theta], 2],\[Theta]3=Subscript[\[Theta], 3]},
+Transpose[EulerMatrix[{\[Theta]1,\[Theta]2,\[Theta]3},{2,3,2}]]//MatrixForm]`
 # Question 5
 Consider the set of (2-3-2) Euler angles.
 
