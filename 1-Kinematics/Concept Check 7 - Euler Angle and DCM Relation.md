@@ -29,14 +29,14 @@ Given the vector Bv=1b^r+1b^θ+2b^L, find the vector Nv
 Consider the set of (2-3-2) Euler angles.
 
 Find the mapping of these angles (\theta_1, \theta_2, \theta_3)to the corresponding [C] DCM
-- [x] A
-- [ ] B
+- [ ] A
+- [x] B
 - [ ] C
 
 # Question 5
 Consider the set of (2-3-2) Euler angles.
 
 Find appropriate inverse transformations from [C][C] back to the (2-3-2) Euler angles.
-- [x] A
-- [ ] B
+- [ ] A
+- [x] B
 - [ ] C
