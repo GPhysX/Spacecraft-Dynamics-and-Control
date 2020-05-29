@@ -19,5 +19,4 @@ What is the attitude of BB relative to RR in terms of the 3-2-1 EAs.
 NB=EulerMatrix[{\[Theta]1 Degree,\[Theta]2 Degree,\[Theta]3 Degree},{3,2,1}];
 NR=EulerMatrix[{\[Theta]4 Degree,\[Theta]5 Degree,\[Theta]6 Degree},{3,2,1}];
 EulerAngles[N[Transpose[NR].NB],{3,2,1}]/Degree
-
-]`
+] `
