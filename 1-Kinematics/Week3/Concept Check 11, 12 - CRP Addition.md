@@ -48,6 +48,7 @@ F/N=(0.1,0.2,0.3) and {\bf q_{B/N}} = (-0.3, 0.3, 0.1)q B/N=(−0.3,0.3,0.1). Wh
 - [ ] b
 - [x] c
 > Matlab code
+
 ```Matlab
 q_NB = [-0.3;0.3;0.1];
 q_NF = [0.1;0.2;0.3];
@@ -56,4 +57,5 @@ NB=CRP2DCM(q_NB);
 NF=CRP2DCM(q_NF);
 FB = NF'*NB;
 DCM2CRP(FB)
+
 ```
