@@ -28,8 +28,8 @@ What is the biggest challenge in implementing Devenport’s q-method?
 - [ ] b
 - [x] c
 ## Question 6
-A spacecraft has two attitude sensors, sensing two unit vectors (directions), \hat{\bf v}_{i} 
+A spacecraft has two attitude sensors, sensing two unit vectors (directions), \hat{\bf v}_{i}
   with i=1,2i=1,2. We know the first sensor (ii=1) is more accurate than the second sensor. At an instant in time, the two vectors measured
 - [ ] a
-- [ ] b
+- [x] b
 - [ ] c
